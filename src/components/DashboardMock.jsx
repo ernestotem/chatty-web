@@ -34,7 +34,7 @@ export default function DashboardMock() {
     <div className="flex h-[640px] w-[1080px] overflow-hidden rounded-[22px] bg-mist text-ink ring-1 ring-line">
       {/* Sidebar */}
       <aside className="flex w-[220px] shrink-0 flex-col border-r border-line bg-white px-4 py-6">
-        <Logo className="ml-2 h-8 w-auto" />
+        <Logo className="ml-2 h-8 w-auto self-start" />
         <p className="mt-8 ml-2 text-[10px] font-bold tracking-[0.12em] text-ink-50">ESPACIO DE TRABAJO</p>
         <ul className="mt-3 space-y-1">
           {nav.map(({ icon: I, label, active, badge }) => (

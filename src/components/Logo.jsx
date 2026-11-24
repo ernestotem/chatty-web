@@ -10,7 +10,7 @@ export default function Logo({ className = 'h-7 w-auto' }) {
       alt="Chatty"
       width="720"
       height="213"
-      className={className}
+      className={`object-contain ${className}`}
       decoding="async"
     />
   )
